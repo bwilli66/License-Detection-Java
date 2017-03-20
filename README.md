@@ -11,34 +11,34 @@ License detection algorithm for a given photo. Not general purpose.
 
 • Standard blue on white California license plate <br />
 • Single car in photo  <br />
-    ..• Single license plate recognition  <br />
+    ⋅⋅⋅• Single license plate recognition  <br />
 • Use pre-written computer vision libraries  <br />
 
 # Program Design – 3 Steps  
 
 • Image Pre-processing  <br />
-    ..• Finding the license plate  <br />
+    ⋅⋅⋅• Finding the license plate  <br />
 • OCR (Optical Character Recognition)  <br />
 • Database Lookup  <br />
 
 # Language of Choice - Java
 
 • Reasons for use  <br />
-    ..• Experience with language   <br />
-    ..• Pre-written libraries for computer vision  <br />
+    ⋅⋅⋅• Experience with language   <br />
+    ⋅⋅⋅• Pre-written libraries for computer vision  <br />
 • Drawbacks  <br />
-    ..• Syntax is verbose  <br />
-        ... ...• Makes high-level algorithm design harder <br />
-    ..• Limited support for OCR (Optical Character Recognition <br />
+    ⋅⋅⋅• Syntax is verbose  <br />
+        ⋅⋅⋅ ⋅⋅⋅• Makes high-level algorithm design harder <br />
+    ⋅⋅⋅• Limited support for OCR (Optical Character Recognition <br />
 
 # Libraries Used
 
 • JDBC <br />
-    ..• Java Database Connector driver for MySQL <br />
+    ⋅⋅⋅• Java Database Connector driver for MySQL <br />
 • OpenCV <br />
-   .. • Computer vision library  <br />
+   ⋅⋅⋅• Computer vision library  <br />
 • Tess4J  <br />
-    ..• Java wrapper library for Tesseract OCR engine (written in C++)  <br />
+    ⋅⋅⋅• Java wrapper library for Tesseract OCR engine (written in C++)  <br />
     
 # License Plate Detection Algorithm
 
