@@ -3,42 +3,42 @@ License detection algorithm for a given photo. Not general purpose.
 
 # Program Specification
 
-• Identify license plate region from picture
-• Read characters on license plate and convert to text
-• Compare against database and return relevant information about the car in the picture 
+• Identify license plate region from picture  <br />
+• Read characters on license plate and convert to text  <br />
+• Compare against database and return relevant information about the car in the picture  <br />
 
 # Assumptions
 
-• Standard blue on white California license plate 
-• Single car in photo
-    • Single license plate recognition 
-• Use pre-written computer vision libraries 
+• Standard blue on white California license plate <br />
+• Single car in photo  <br />
+    • Single license plate recognition  <br />
+• Use pre-written computer vision libraries  <br />
 
 # Program Design – 3 Steps  
 
-• Image Pre-processing
-    • Finding the license plate
-• OCR (Optical Character Recognition)
-• Database Lookup
+• Image Pre-processing  <br />
+    • Finding the license plate  <br />
+• OCR (Optical Character Recognition)  <br />
+• Database Lookup  <br />
 
 # Language of Choice - Java
 
-• Reasons for use
-    • Experience with language 
-    • Pre-written libraries for computer vision
-• Drawbacks
-    • Syntax is verbose 
-        • Makes high-level algorithm design harder 
-    • Limited support for OCR (Optical Character Recognition
+• Reasons for use  <br />
+    • Experience with language   <br />
+    • Pre-written libraries for computer vision  <br />
+• Drawbacks  <br />
+    • Syntax is verbose  <br />
+        • Makes high-level algorithm design harder <br />
+    • Limited support for OCR (Optical Character Recognition <br />
 
 # Libraries Used
 
-• JDBC 
-    • Java Database Connector driver for MySQL
-• OpenCV
-    • Computer vision library
-• Tess4J
-    • Java wrapper library for Tesseract OCR engine (written in C++)
+• JDBC <br />
+    • Java Database Connector driver for MySQL <br />
+• OpenCV <br />
+    • Computer vision library  <br />
+• Tess4J  <br />
+    • Java wrapper library for Tesseract OCR engine (written in C++)  <br />
     
 # License Plate Detection Algorithm
 
