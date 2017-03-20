@@ -53,3 +53,8 @@ License detection algorithm for a given photo. Not general purpose.
 
 
 This algorithm was derived from this source: https://stackoverflow.com/questions/37302098/image-preprocessing-with-opencv-before-doing-character-recognition-tesseract
+
+* Item 1
+* Item 2
+  * Sub Item 1
+  * Sub Item 2
