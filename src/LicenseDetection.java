@@ -398,7 +398,7 @@ public class LicenseDetection {
 
             CarProfDBImpl db = new CarProfDBImpl();
 
-            db.connect("localhost:3306/computer_vision", "root","bdw52575");
+            db.connect("localhost:3306/computer_vision", "root","*******");
 
             CarProf c = db.getCarProf(result);
 
